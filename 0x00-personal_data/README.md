@@ -2,7 +2,18 @@
 
 This project contains tasks for learning to protect a user's personal data.
 
-Tasks
+## Resources
+[What Is PII, non-PII, and Personal Data?](https://piwik.pro/blog/what-is-pii-personal-data/)
+
+[logging documentation](https://docs.python.org/3/library/logging.html)
+
+[bcrypt package](https://github.com/pyca/bcrypt/)
+
+[Logging to Files, Setting Levels, and Formatting](https://www.youtube.com/watch?reload=9&v=-ARI4Cz-awo&themeRefresh=1)
+
+
+
+## Tasks
 
 + [x] 0. Regex-ing
 + [filtered_logger.py](filtered_logger.py) contains a function called filter_datum that returns the log message obfuscated with the following requirements:
