@@ -96,8 +96,8 @@ This project contains tasks for learning to protect a user's personal data.
 + [encrypt_password.py](encrypt_password.py) contains a script that meets the following requirements:
 
   + `INFO:` User passwords should `NEVER` be stored in `plain text` in a database.
-  + Implement a `hash_password` function that expects one string argument name password and returns a `salted, hashed password,` which is a byte string.
-  + Use the `bcrypt` package to perform the hashing (with hashpw).
+  + Implement a `hash_password` function that expects one string argument name `password` and returns a salted, hashed password, which is a byte string.
+  + Use the `bcrypt` package to perform the hashing (with `hashpw`).
     
 + [x] 6. Check valid password
 + [app.py](app.py) contains an `is_valid` function that expects 2 arguments and returns a `boolean`:
