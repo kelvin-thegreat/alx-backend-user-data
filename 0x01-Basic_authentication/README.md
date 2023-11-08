@@ -1,5 +1,18 @@
 # 0x01-Basic_authentication
-# Simple-API-Tasks
+
+## Resources
+
+[REST API Authentication Mechanisms](https://youtu.be/501dpx2IjGY)
+
+[Base64 in Python](https://docs.python.org/3.7/library/base64.html)
+
+[HTTP header Authorization](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Authorization)
+
+[Flask](https://palletsprojects.com/p/flask/)
+
+[Base64 - concept](https://en.wikipedia.org/wiki/Base64)
+
+## Simple-API-Tasks
 
 Simple HTTP API for playing with `User` model.
 
@@ -82,19 +95,6 @@ Tasks done
       * Closing connection 0
       bob@dylan:~$
       ```
-
-# Resources
-
-[REST API Authentication Mechanisms](https://youtu.be/501dpx2IjGY)
-
-[Base64 in Python](https://docs.python.org/3.7/library/base64.html)
-
-[HTTP header Authorization](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Authorization)
-
-[Flask](https://palletsprojects.com/p/flask/)
-
-[Base64 - concept](https://en.wikipedia.org/wiki/Base64)
-
 
 + [x] 1. Error handler: Unauthorized
 
