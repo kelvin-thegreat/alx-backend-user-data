@@ -2,15 +2,13 @@
 
 ## Resources
 
-[REST API Authentication Mechanisms](https://youtu.be/501dpx2IjGY)
+[REST API Authentication Mechanisms - Only the session auth part](https://youtu.be/501dpx2IjGY)
 
-[Base64 in Python](https://docs.python.org/3.7/library/base64.html)
-
-[HTTP header Authorization](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Authorization)
+[HTTP Cookie](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cookie)
 
 [Flask](https://palletsprojects.com/p/flask/)
 
-[Base64 - concept](https://en.wikipedia.org/wiki/Base64)
+[Flask Cookie](https://flask.palletsprojects.com/en/1.1.x/quickstart/#cookies)
 
 ## Tasks
 + [x] 0. Et moi et moi et moi!
