@@ -1,16 +1,19 @@
 #!/usr/bin/env python3
-"""Route Module."""
+"""Route module."""
 import os
 from os import getenv
-from flask import Flask, jsonify, abort, request
 from flask_cors import (CORS, cross_origin)
+from flask import Flask, jsonify, abort, request
 
-from api.v1.views import app_views
+
 from api.v1.auth.auth import Auth
+from api.v1.views import app_views
 from api.v1.auth.basic_auth import BasicAuth
 from api.v1.auth.session_auth import SessionAuth
 from api.v1.auth.session_db_auth import SessionDBAuth
 from api.v1.auth.session_exp_auth import SessionExpAuth
+
+
 
 
 app = Flask(__name__)
@@ -32,7 +35,7 @@ if auth_type == 'session_db_auth':
 
 @app.errorhandler(404)
 def not_found(error) -> str:
-    """Not found handler."""
+    """Error Not found handler."""
     return jsonify({"error": "Not found"}), 404
 
 
@@ -44,7 +47,8 @@ def unauthorized(error) -> str:
 
 @app.errorhandler(403)
 def forbidden(error) -> str:
-    """Forbidden handler."""
+    """Forbidden handler.
+    """
     return jsonify({"error": "Forbidden"}), 403
 
 
@@ -66,7 +70,6 @@ def authenticate_user():
             if user is None:
                 abort(403)
             request.current_user = user
-
 
 if __name__ == "__main__":
     host = getenv("API_HOST", "0.0.0.0")
