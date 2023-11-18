@@ -12,10 +12,14 @@ User Authentication Service
      + [HTTP status codes](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html)
 
 + [x] Requirements
-      + SQLAlchemy 1.3.x
-      + pycodestyle 2.5
-      + bcrypt
-      + python3 3.7
+
+   + SQLAlchemy 1.3.x
+      
+   + pycodestyle 2.5
+      
+   + bcrypt
+      
+   + python3 3.7
 
 ## Tasks Done
 
