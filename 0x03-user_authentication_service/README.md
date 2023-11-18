@@ -21,6 +21,16 @@ User Authentication Service
       
    + python3 3.7
 
++ [x] Learning Objectives
+
+   + How to declare API routes in a Flask app
+     
+   + How to get and set cookies
+     
+   + How to retrieve request form data
+     
+   + How to return various HTTP status codes
+
 ## Tasks Done
 
 + [x] 0. **User model**<br />[user.py](user.py) contains a SQLAlchemy model named `User` for a database table named `users` (by using the [mapping declaration](https://docs.sqlalchemy.org/en/13/orm/tutorial.html#declare-a-mapping) of SQLAlchemy) and meets the following requirements:
